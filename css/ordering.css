@@ -1,0 +1,72 @@
+.main .order {
+    display: flex;
+    justify-content: center;
+    height: 51.9vw;
+    background-image: url(../img/ordering/bg-ordering.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: #225666;
+  }
+.order__container {
+    width: 65.23vw;
+    height: 51.9vw;
+    background-color: rgba(34, 86, 102, 0.83);
+}
+.order__text {
+    margin: 8.57vw 9.37vw 9.84vw 10.90vw;
+}
+
+.order__heading {
+    text-align: center;
+    line-height: 4.26vw;
+    margin-bottom: 2.27vw;
+}
+.order__txt-normal {
+    color: #fff;
+    font-size: 2.93vw;
+    margin-bottom: 1.99vw;
+}
+.absolute {
+    font-family: "Inter-Bold";
+    margin: 2.27vw 0 0 1.48vw;
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+    transition: all .2s;
+}
+.absolute:hover {
+    cursor: pointer;
+    text-shadow: rgb(225, 208, 140) 1px 0 10px;
+    font-size: 3.2vw;
+}
+.absolute:active {
+    font-size: 2.93vw;
+}
+.order__form {
+    display: flex;
+    flex-direction: column;
+}
+.order__input {
+    width: 42.97vw;
+    height: 2vw;
+    border: 0.3vw solid;
+    margin-bottom: 2.27vw;
+    font-size: 1.88vw;
+    padding: 0.66vw 0 0.70vw 1.13vw;
+    -webkit-box-shadow: 0.20vw 0.23vw 1.40vw -0.27vw rgba(7, 90, 154, 0.7) inset;
+    -moz-box-shadow: 0.20vw 0.23vw 1.40vw -0.27vw rgba(7, 90, 154, 0.7) inset;
+    box-shadow: 0.20vw 0.23vw 1.40vw -0.27vw rgba(7, 90, 154, 0.7) inset;
+}
+.order__input::placeholder {
+    color: #1C3D47;
+    opacity: 0.8;
+    padding: 0.66vw 0 0.70vw 1.13vw;
+}
+.choice__button {
+    display: flex;
+    align-items: center;
+  }
+  .button {
+    font-size: 2.34vw;
+    padding: 0.66vw 7.77vw;
+  }

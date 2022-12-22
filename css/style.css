@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("fonts/Inter-Bold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Inter-ExtraBold";
+    src: url("fonts/Inter-ExtraBold.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "Capture It";
+    src: url("fonts/Capture-it.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+} 
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("fonts/OpenSans-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} 
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("fonts/OpenSans-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: url("fonts/OpenSans-Italic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} 
+
+@font-face {
+    font-family: "OpenSans-MediumBoldItalic";
+    src: url("fonts/OpenSans-MediumItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+  margin: 0;
+}
+
+*::selection {
+  background-color: rgba(255, 194, 36, .5);
+  color: #fff;
+}
+
+/*Header*/
+.header {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 5.2vw;
+    transition: all .5s;
+    background-color: #1C3D47;
+    box-shadow: 0px 6px 12px 9px rgba(15, 34, 40, 0.379);
+  }
+  .hov {
+    opacity: 0.4;
+    transition: 1s;
+  }
+  .hov1 {
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+  .header .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 65.23vw;
+    margin: 0 auto;
+    padding: 0% 5%;
+    align-items: center;
+  }
+  
+  .header .menu .menu__link{
+    transition: .2s;
+  }
+  .header .menu .menu__link:hover {
+    color: #FFC224;
+  }
+  .header .menu img{
+    width: 7.97vw;
+  }
+  
+  .main .fake-header {
+    height: 5.2vw;
+    background-color: #1C3D47;
+  }
+
+.menu__link{
+    font-family: "Inter-Bold";
+    font-size: 1.56vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menuhide {
+  opacity: 0;
+}
+
+/*Text*/
+.info__heading, .contacts__heading, .choice__heading, .order__heading {
+   font-family: "Inter-ExtraBold";
+   font-size: 3.52vw;
+   color: #FFC224;
+   text-shadow: 0.23vw 0.16vw 0.23vw rgba(0, 0, 0, 0.56);
+   text-transform: uppercase;
+}
+
+.slider__heading {
+    font-family: "Capture It";
+    font-size: 3.01vw;
+    font-weight: lighter;
+    color: #FFC224;
+    text-shadow: 0.43vw 0.20vw 0.39vw rgba(0, 0, 0, 0.9); 
+}
+
+.slider__txt-normal {
+    font-family: "OpenSans-Light";
+    font-size: 1.88vw;
+    text-align: justify;
+    color: #fff;
+    text-shadow: 0 0.16vw 0.16vw rgba(0, 0, 0, 0.25), 0.20vw 0.04vw 0.31vw #000000;
+}
+
+.info__txt-normal, .contacts__txt-normal, .footer__txt-normal, 
+.choice__txt-normal, .order__txt-normal {
+    font-family: "OpenSans-Regular";
+    font-size: 2.50vw;
+    text-align: justify;
+    color: #225666;
+}
+
+.slider__blockquote {
+    font-family: "OpenSans-MediumBoldItalic";
+    font-size: 1.88vw;
+    text-align: justify;
+    color: #fff;
+    text-shadow: 0 0.16vw 0.16vw rgba(0, 0, 0, 0.25), 0.20vw 0.04vw 0.31vw #000000;
+}
+
+.button {
+    display: inline-block;
+    background-color: #FFC224;
+    border: none;
+    border-radius: 4.41vw;
+    color: #1C3D47;
+    padding:  0.55vw 6.76vw;
+    text-align: center;
+    font-size: 1.95vw;
+    font-family: "Inter-Bold";
+    transition: all .2s;
+}
+
+.button:hover {
+    background-color: #1C3D47;
+    color: #FFC224;
+    box-shadow: inset 0 0 0 0.31vw #FFC224;
+    cursor: pointer;
+}
+.button:active {
+    background-color: #1c3d479a;
+    font-size: 1.7vw;
+}
+
+/*Footer*/
+.footer{
+    height: 13.16vw;
+    padding: 0 3.48vw 0 3.20vw;
+    background-color: #225666;
+  }
+  .footer__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+  }
+  .footer__txt-normal {
+    font-size: 2.73vw;
+    color: #fff;
+  }
+  .footer__txt-normal:nth-child(1) {
+    text-align: unset;
+  }
+  .footer__text img{
+    width: 13.24vw;
+  }
+  .footer__txt-normal:nth-child(4) {
+    width: 27.85vw;
+    font-size: 1.09vw;
+  }

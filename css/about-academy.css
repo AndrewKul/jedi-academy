@@ -1,0 +1,72 @@
+/*Info 1*/
+.main .info {
+    display: flex;
+    width: 100%;
+    height: 52.38vw;
+    background-color: #225666;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .info .info__text {
+    display: flex;
+    flex-direction: column;
+    width: 42.42vw;
+    margin: 0 3.20vw;
+  }
+  .info .info__heading {
+    line-height: 4.26vw;
+    margin-bottom: 3.24vw;
+  }
+  .info .info__txt-normal {
+    color:#fff;
+    line-height: 3.40vw;
+  }
+  .info .info__text .info__txt-normal:nth-child(2) {
+    margin-bottom: 1.37vw;
+  }
+  .info .info__img img {
+    width: 46.12vw;
+  }
+
+/*Info 2*/
+.main .info:nth-child(odd) {
+  background-color: #fff;
+}
+.info:nth-child(odd) .info__container {
+  display: flex;
+}
+.info:nth-child(odd) .info__txt-normal {
+  color:#225666;
+  font-family: "OpenSans-SemiBold";
+  line-height: 3.40vw;
+}
+.info:nth-child(odd) .info__heading {
+  margin: 2.90vw 0 3.9vw;
+  line-height: 3.40vw;
+}
+.info:nth-child(odd) .info__text:nth-child(2) {
+  width: 44vw;
+  margin-right: auto;
+}
+.info:nth-child(odd) .info__text:nth-child(2) .info__heading {
+  text-align: center;
+}
+.info:nth-child(odd) .info__txt-normal li {
+  margin: 0 0 1.37vw 1.42vw;
+  list-style-type:"— ";
+}
+.info:nth-child(odd) .info__text:nth-child(2) .info__txt-normal{
+  text-align: justify;
+  font-size: 2.07vw;
+  line-height: 2.81vw;
+  margin-bottom: 0.55vw;
+}
+.info__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 4.2vw;
+}
+.button {
+  font-size: 1.95vw;
+  padding: 1.25vw 11.17vw;
+}

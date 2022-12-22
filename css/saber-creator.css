@@ -1,0 +1,118 @@
+/*Info*/
+.main .info {
+    display: flex;
+    justify-content: center;
+    height: 52.4vw;
+    background-image: url(../img/saber-creator/info-img.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-color: #225666;
+  }
+.info__container {
+    display: flex;
+    width: 61.48vw;
+    height: 52.38vw;
+    background-color: rgba(34, 86, 102, 0.83);
+    justify-content: space-between;
+}
+.info__text {
+    margin: 7.8vw 1.60vw 8.16vw 1.48vw;
+}
+.info__heading {
+    text-align: center;
+    line-height: 4.26vw;
+    margin-bottom: 3.01vw;
+}
+.info__txt-normal {
+    color: #fff;
+    font-family: "OpenSans-Italic";
+    font-size: 2.81vw;
+    line-height: 3.83vw;
+    margin-bottom: 2.5vw;
+}
+.info__text .info__txt-normal:nth-child(3) {
+    font-family: "OpenSans-Light";
+}
+
+/*Cards*/
+.choice {
+    display: flex;
+    height: 58.75vw;
+}
+.choice__container{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/saber-creator/bg-choice-1.png);
+    background-size: 46.60vw;
+    background-repeat: no-repeat;
+    width: 46.60vw
+}
+.choice__text {
+    margin: 7.46vw 4.73vw 10.04vw 3.98vw;
+}
+.choice__heading {
+    margin-bottom: 3.36vw;
+}
+.choice__txt-normal {
+    color: #fff;
+    font-size: 2.30vw;
+    line-height: 3.13vw;
+    text-align: justify;
+    margin-bottom: 2.30vw;
+}
+.choice__cards {
+    display: flex;
+    flex-direction: column;
+    width: 41.29vw;
+    margin: 7.46vw 5.16vw 9.34vw 6.95vw;
+}
+.choice__cards .choice__heading {
+    text-align: center;
+}
+.choice__variant {
+    display: flex;
+    flex-wrap: wrap;
+    width: 41.29vw;
+    row-gap: 3.05vw;
+    column-gap: 5.04vw;
+}
+.choice__variant img {
+    width: 18.13vw;
+    transition: all .4s;
+    -webkit-box-shadow: 0.94vw 0.70vw 0.43vw 0 rgba(27, 76, 156, 0.22);
+    -moz-box-shadow: 0.94vw 0.70vw 0.43vw 0 rgba(27, 76, 156, 0.22);
+    box-shadow: 0.94vw 0.70vw 0.43vw 0 rgba(27, 76, 156, 0.22);
+}
+.choice__variant img:hover {
+    opacity: 0.5;
+}
+/*2nd Choice*/
+.choice:nth-child(4) .choice__container{
+    background-image: url(../img/saber-creator/bg-choice-2.png);
+    background-size: 46.60vw;
+    background-repeat: no-repeat;
+    width: 46.60vw;
+}
+.choice:nth-child(4) .choice__txt-normal {
+    font-size: 1.95vw;
+    line-height: 2.66vw;
+    margin-bottom: 1.41vw;
+}
+.choice:nth-child(4) .choice__text {
+    margin: 6.48vw 1.41vw 10.04vw 3.98vw;
+}
+.choice:nth-child(4) .choice__cards {
+    margin: 6.48vw 5.16vw 9.34vw 6.95vw;
+}
+.choice:nth-child(4) .choice__variant {
+    width: 42.29vw;
+}
+.choice__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 4.2vw;
+  }
+  .button {
+    font-size: 2.50vw;
+    padding: 0.94vw 9.61vw;
+  }
